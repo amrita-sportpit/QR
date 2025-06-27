@@ -11,7 +11,11 @@ import './App.css';
 const HeroSection = () => (
   <GlassSection 
     className="min-h-screen flex items-center justify-center"
-    backgroundImage="/src/assets/workout-hero.jpg"
+    //backgroundImage="/src/assets/workout-hero.jpg"
+    import workoutHero from './assets/workout-hero.jpg'
+// и затем использовать:
+    backgroundImage={workoutHero}
+
   >
     <div className="container mx-auto px-4 text-center">
       <motion.div
